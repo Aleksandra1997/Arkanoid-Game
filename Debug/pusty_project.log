@@ -1,0 +1,24 @@
+﻿Build started 2017-07-21 15:51:54.
+     1>Project "C:\Users\Admin\Desktop\ARKANOID GAME - ulepszona wersja\pusty_project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\freeglut\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Circle.cpp Figure.cpp lab_s02e06_freeglut_arkanoid_template.cpp Physics.cpp Rectangle.cpp
+         Rectangle.cpp
+         Physics.cpp
+         lab_s02e06_freeglut_arkanoid_template.cpp
+     1>c:\users\admin\desktop\arkanoid game - ulepszona wersja\lab_s02e06_freeglut_arkanoid_template.cpp(261): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Figure.cpp
+         Circle.cpp
+     1>c:\users\admin\desktop\arkanoid game - ulepszona wersja\circle.cpp(49): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\Desktop\ARKANOID GAME - ulepszona wersja\Debug\pusty_project.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\freeglut\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Admin\Desktop\ARKANOID GAME - ulepszona wersja\Debug\pusty_project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\Desktop\ARKANOID GAME - ulepszona wersja\Debug\pusty_project.lib" /MACHINE:X86 Debug\Circle.obj
+         Debug\Figure.obj
+         Debug\lab_s02e06_freeglut_arkanoid_template.obj
+         Debug\Physics.obj
+         Debug\Rectangle.obj
+         pusty_project.vcxproj -> C:\Users\Admin\Desktop\ARKANOID GAME - ulepszona wersja\Debug\pusty_project.exe
+     1>Done Building Project "C:\Users\Admin\Desktop\ARKANOID GAME - ulepszona wersja\pusty_project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.25
